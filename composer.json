@@ -1,5 +1,5 @@
 {
-	"name": "cssjanus/cssjanus",
+	"name": "prestashop/cssjanus",
 	"description": "Convert CSS stylesheets between left-to-right and right-to-left.",
 	"license": "Apache-2.0",
 	"autoload": {
@@ -9,6 +9,9 @@
 	},
 	"require": {
 		"php": ">=5.4"
+	},
+	"replace": {
+		"cssjanus/cssjanus": "~1.2.0"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.8.*",
